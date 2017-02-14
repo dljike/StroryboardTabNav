@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		823710521E4D74D9003D2045 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823710511E4D74D9003D2045 /* BaseTabBarController.swift */; };
+		823710581E4D916B003D2045 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823710571E4D916B003D2045 /* BaseViewController.swift */; };
+		823D050E1E517F1B00C7543D /* FadeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D050D1E517F1B00C7543D /* FadeAnimator.swift */; };
 		82A9B76E1E4C700500886430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9B76D1E4C700500886430 /* AppDelegate.swift */; };
 		82A9B7701E4C700500886430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9B76F1E4C700500886430 /* ViewController.swift */; };
 		82A9B7731E4C700500886430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A9B7711E4C700500886430 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		82A9B7781E4C700500886430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A9B7761E4C700500886430 /* LaunchScreen.storyboard */; };
 		82A9B7831E4C700500886430 /* StroryboardTabNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9B7821E4C700500886430 /* StroryboardTabNavTests.swift */; };
 		82A9B78E1E4C700500886430 /* StroryboardTabNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9B78D1E4C700500886430 /* StroryboardTabNavUITests.swift */; };
+		82A9B79C1E4C750F00886430 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9B79B1E4C750F00886430 /* BaseNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		823710511E4D74D9003D2045 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		823710571E4D916B003D2045 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		823D050D1E517F1B00C7543D /* FadeAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeAnimator.swift; sourceTree = "<group>"; };
 		82A9B76A1E4C700500886430 /* StroryboardTabNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StroryboardTabNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A9B76D1E4C700500886430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82A9B76F1E4C700500886430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		82A9B7891E4C700500886430 /* StroryboardTabNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StroryboardTabNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A9B78D1E4C700500886430 /* StroryboardTabNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StroryboardTabNavUITests.swift; sourceTree = "<group>"; };
 		82A9B78F1E4C700600886430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A9B79B1E4C750F00886430 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				82A9B76D1E4C700500886430 /* AppDelegate.swift */,
 				82A9B76F1E4C700500886430 /* ViewController.swift */,
+				823D050D1E517F1B00C7543D /* FadeAnimator.swift */,
+				82A9B79B1E4C750F00886430 /* BaseNavigationController.swift */,
+				823710571E4D916B003D2045 /* BaseViewController.swift */,
+				823710511E4D74D9003D2045 /* BaseTabBarController.swift */,
 				82A9B7711E4C700500886430 /* Main.storyboard */,
 				82A9B7741E4C700500886430 /* Assets.xcassets */,
 				82A9B7761E4C700500886430 /* LaunchScreen.storyboard */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823710581E4D916B003D2045 /* BaseViewController.swift in Sources */,
+				823710521E4D74D9003D2045 /* BaseTabBarController.swift in Sources */,
+				823D050E1E517F1B00C7543D /* FadeAnimator.swift in Sources */,
 				82A9B7701E4C700500886430 /* ViewController.swift in Sources */,
 				82A9B76E1E4C700500886430 /* AppDelegate.swift in Sources */,
+				82A9B79C1E4C750F00886430 /* BaseNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +521,7 @@
 				82A9B7941E4C700600886430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82A9B7951E4C700600886430 /* Build configuration list for PBXNativeTarget "StroryboardTabNavTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				82A9B7971E4C700600886430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82A9B7981E4C700600886430 /* Build configuration list for PBXNativeTarget "StroryboardTabNavUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				82A9B79A1E4C700600886430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
